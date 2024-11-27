@@ -384,7 +384,6 @@ font-size:3.5rem;
 /* FOOTER */
 .footer{
   background-color: var(--dark);
-  opacity:50%
 }
 .footer .footer__wrapper{
   display: flex;
@@ -395,7 +394,7 @@ font-size:3.5rem;
 .footer .footer__social{
   display: flex;
   align-items: center;
-  gap:3rem;
+  gap:4rem;
 }
 .footer .footer__social a{
   color: var(--light);
@@ -404,15 +403,15 @@ font-size:3.5rem;
   .footer .footer__wrapper{
     display: flex;
     flex-direction: column;
-    gap:3rem;
-    padding-top: 3rem;
+    gap:2rem;
+    padding:2rem;
   }
   .footer .footer__wrapper img{
     display: flex;
     order: -1;
   }
   .footer .footer__social a{
-    gap:4rem;
+    gap:3.5rem;
   }
 }
 
